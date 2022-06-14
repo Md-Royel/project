@@ -1,0 +1,246 @@
+.hero-area{
+    background-image: url(../images/hero-bg-2.png);
+    background-color:#3790f4;
+}
+.boxed-btn, input[type=submit], button[type=submit]{background-color:#06d6a0 !important}
+.hero-area {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.padding-top-0{padding-top:0}
+.hero-area h1 {
+    color: #fff;
+    font-size: 45px;
+     margin-top: 90px;
+}
+/*.............................*/
+h3 {
+    font-size: 22px;
+}
+
+.about-text h3 {
+    margin-bottom: 25px;
+}
+
+.about-text .boxed-btn {
+    margin-top: 15px;
+}
+
+.about-text {
+    margin-top: 30px;
+}
+.single-service-box-2 {
+    display: block;
+    height: 250px;
+    background: #fbfbfb;
+    display: table;
+    width: 100%;
+    text-align: center;
+    transition: .3s;
+}
+
+.service-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.service-icon {
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+.service-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+
+.single-service-box-2:hover {
+    background: blue;
+}
+.single-service-box-2:hover .service-box-tablecell h3{
+    color:#fff;
+}
+.single-service-box-2:hover .service-icon{color:#fff}
+
+/*..............................*/
+
+.testimonial-icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: blue;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.testimonial-item.theme-2 p {
+    color: #373737;
+    line-height: 2;
+}
+
+.testimonial-item.theme-2 h4 span {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.testimonial-item.theme-2 h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+.padding-80 {
+    padding: 80px 0;
+}
+
+.case-study-box-preview {
+    display: table;
+    width: 100%;
+    height: 300px;
+    background: #ddd;
+    background-size: cover;
+    background-position: center;
+}
+
+.case-study-link-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    transform: scale(.8);
+}
+
+.case-study-link-tablecell:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: blue;
+    content: "";
+    opacity: .8;
+    z-index: -1;
+}
+
+.case-study-link-tablecell .boxed-btn {
+    background: #fff;
+    color: #333;
+}
+
+.case-study-box-style2 h4 {
+    margin-top: 20px;
+}
+
+.case-study-box-style2 h4 span {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999;
+}
+
+.case-study-box-style2 {
+    text-align: center;
+}
+
+.case-study-box-style2:hover .case-study-link-tablecell {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.theme-2 .pricing-heading {
+    background: #fbfbfb;
+    padding: 20px;
+}
+
+.single-pricing-box.theme-2 {
+    padding: 0;
+    margin: 0;
+}
+
+.theme-2 p.pricing-count {
+    color: #2774f2;
+}
+
+.single-pricing-box.theme-2 p {
+    margin: 0;
+}
+
+.single-pricing-box.theme-2 .boxed-btn {
+    display: block;
+    border-radius: 0;
+}
+
+.single-pricing-box.theme-2:hover {
+    border-color: #f8f8f8;
+}
+
+.single-pricing-box.theme-2:hover .pricing-heading {
+    border-color: #f8f8f8;
+}
+
+.single-blog-box {
+    border: 1px solid #f5f5f5;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    transition: .3s;
+}
+
+.single-blog-box h3 {
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+a.blog-readmore-btn {
+    color: #06d6a0;
+    font-weight: 400;
+}
+
+a.blog-readmore-btn i.fa {
+    padding-left: 10px;
+}
+.single-blog-box:hover {
+    border-color: #fbfbfb;
+    background: #fbfbfb;
+}
+.cta-area.theme-2 {
+    background: blue;
+}
+
+.cta-area.theme-2 h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cta-area.theme-2 .boxed-btn {
+    background: #fff;
+    color: #333;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cta-area.theme-2 {
+    padding: 40px 0;
+}
+
+
+
+
